@@ -14,6 +14,8 @@ on the CRFSequenceLearner object without having to figure out any of
 the obscure Mallet details. For an example, see how the named entity
 recognition task is defined in:
 
+inn
+
 src/edu/jhu/nlp/tools/NamedEntityTagger.java
 (We get around 89 F-score for the CONLL'03 English NER data using the
 BasicNERFeatureFactory)
